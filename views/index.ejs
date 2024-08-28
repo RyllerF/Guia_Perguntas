@@ -7,6 +7,16 @@
 </head>
 <body>
     <h1> Guia Perguntas</h1>
+    <hr> </hr>
+    <p> Nome:  <%= nome %> </p>
+    <p> Time:  <%= time %> </p>
+
+    <% if(msg == true){ %>
+        <h3> Isso é um erro! </h3> 
+        <%} else { %>
+
+            <h3> Sem erros!</h3>
+            <%}%>
     
 </body>
 </html>
